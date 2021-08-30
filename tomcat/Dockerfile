@@ -1,4 +1,4 @@
-FROM arm32v7/tomcat:9
+FROM arm32v6/tomcat:9-jre8-alpine
 # FROM tomcat:9.0.37-jdk14-openjdk-slim
 
 ADD context.xml /tmp
